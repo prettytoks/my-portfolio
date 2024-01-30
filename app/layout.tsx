@@ -7,7 +7,7 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from 'next-themes';
 import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
-
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,10 +18,13 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
  
       <html lang="en">
         <head>
+          
+          <GoogleAnalytics gaId="G-BEVWX2C4KS" />
+
           <title>Cindy Ogidi Portfolio</title>
           <meta
           name="description"
-          content={'My portfolio is an online database of information related to my projects. Users can search for projects and learn about my work, as well as the my skills. It also provides information on how to contact me.'}
+          content={'My portfolio is an online database of information related to my projects. Users can search for projects and learn about my work, as well as my skills. It also provides information on how to contact me.'}
         />
         </head>
 
