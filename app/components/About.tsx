@@ -17,7 +17,7 @@ const About = () => {
               <div className="md:w-full pb-6" >
 
                 <p>
-                  Hi, my name is Cindy and I am a Computer Science graduate and a driven Front end Developer.
+                  Hi, my name is Cindy and I am a Computer Science graduate and a driven Front End Developer.
                   I am hard working and I believe that you should{" "}
                   <span className="font-bold text-pink-500">
                     never stop growing
@@ -36,15 +36,7 @@ const About = () => {
 
 
             <div className="flex flex-row flex-wrap mt-5 -ml-4 mb-16">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-            
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+        
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
@@ -53,8 +45,19 @@ const About = () => {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
               />
+              {/*
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              */}
+                    <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+            
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
         
