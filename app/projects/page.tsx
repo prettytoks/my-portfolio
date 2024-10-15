@@ -4,13 +4,13 @@ import userData from "../constants/data";
 export default function Page() {
   return (
 
-    <section className="container mx-auto px-10 py-28">
+    <section className="container mx-auto sm:px-10 px-5 py-20">
 
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-500 px-8">
 
         
-        <h1 className="text-5xl font-bold text-pink-500 text-center pt-24">
+        <h1 className="text-5xl font-bold text-pink-500 text-center pt-20">
               Projects
         </h1>
 

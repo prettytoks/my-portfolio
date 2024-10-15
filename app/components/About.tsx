@@ -17,7 +17,7 @@ const About = () => {
               <div className="md:w-full pb-6" >
 
                 <p>
-                  Hi, my name is Cindy and I am a Computer Science graduate and a driven Front End Developer.
+                  Hi, my name is Cindy and I am a Computer Science graduate and a driven Full Stack Developer.
                   I am hard working and I believe that you should{" "}
                   <span className="font-bold text-pink-500">
                     never stop growing
