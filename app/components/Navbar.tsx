@@ -44,7 +44,10 @@ export default function Navbar() {
               <span className={pathname === '/projects' ? 'active' : ''}>Projects</span>
             </Link>
 
+            {/*}
             <a href="/Cindy_Ogidi_Resume.pdf" target="_blank"> Resume </a>
+            */}
+            <a href="https://drive.google.com/file/d/1lGK6FkJRiJNi3J6OzXIMiOSB5trONSXI/view?usp=sharing" target="_blank"> Resume </a>
       
         </nav>
 

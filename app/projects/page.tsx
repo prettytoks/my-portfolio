@@ -14,7 +14,7 @@ export default function Page() {
               Projects
         </h1>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-12 pb-28">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-12 pb-20">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
               key={idx}
